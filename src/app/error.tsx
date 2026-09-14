@@ -1,0 +1,2 @@
+"use client";
+export default function ErrorPage({reset}:{reset:()=>void}){return <main className="container section"><h1>No pudimos cargar esta página</h1><p>Probá nuevamente en unos segundos.</p><button onClick={reset}>Reintentar</button></main>}
